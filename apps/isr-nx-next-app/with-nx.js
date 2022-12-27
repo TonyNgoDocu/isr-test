@@ -16,7 +16,7 @@ function regexEqual(x, y) {
  */
 function getWithNxContext() {
 return {
-workspaceRoot: 'C:\docusign\isr-nx-test',
+workspaceRoot: require('path').resolve(__dirname, '../../'),
 libsDir: 'libs'
 }
 }
