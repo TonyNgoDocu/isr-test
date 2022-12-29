@@ -9,6 +9,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <title>Welcome to isr-nx-next-app!</title>
       </Head>
       <main className="app">
+        {/* @ts-expect-error ignoring */}
         <Component {...pageProps} />
       </main>
     </>
